@@ -7,7 +7,7 @@
 import Foundation
 
 
-struct HeadFolder: Identifiable {
+struct HeadFolder: Identifiable, Hashable {
     let id = UUID()
     var url: URL
     var mode: Mode
