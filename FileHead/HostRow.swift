@@ -56,3 +56,4 @@ struct HostRow: View {
         .opacity(host.isActive ? 1.0 : 0.6)
     }
 }
+
